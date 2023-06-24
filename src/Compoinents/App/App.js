@@ -12,7 +12,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    // const { contacts } = this.state;
+    const { contacts } = this.state;
     try {
       const localStorageContacts = JSON.parse(localStorage.getItem('contacts'));
 

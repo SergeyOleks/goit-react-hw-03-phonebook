@@ -12,7 +12,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    const { contacts } = this.state;
+    // const { contacts } = this.state;
     try {
       const localStorageContacts = JSON.parse(localStorage.getItem('contacts'));
 
@@ -64,7 +64,7 @@ class App extends Component {
   };
 
   render() {
-    const { contacts } = this.state;
+    // const { contacts } = this.state;
 
     return (
       <div className={css.app}>

@@ -46,7 +46,6 @@ class App extends Component {
     const { contacts } = this.state;
     const { name } = event.currentTarget;
 
-    // console.log(this.filterContacts);
     let delEl = contacts.findIndex(({ id }) => id === name);
     contacts.splice(delEl, 1);
     delEl = this.filterContacts.findIndex(({ id }) => id === name);
